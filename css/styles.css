@@ -56,4 +56,108 @@ header
     margin-top: 0px;
 }
 
- 
+/* Mise en forme de la section search */
+
+.search-form
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.fa-location-dot
+{
+    background-color: rgb(200,200,200);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-form-text
+{
+    line-height: 40px;
+    padding: 3px 10px 3px 10px;
+    margin: 0;
+    border-top: 2px solid rgb(200,200,200);
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid rgb(200,200,200);
+   
+}
+
+.search-form-submit
+{
+    background-color: rgb(0,101,252);
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+
+.search-form-submit:hover
+{
+    color: rgb(200,200,200);
+}
+
+.search-form-submit-headphone
+{
+    display: none;
+}
+
+/* Mise en forme des filtres */
+.filter
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.filter-content
+{
+    display: flex;
+    align-items: center;
+}
+
+.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog
+{
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(222,235,255);
+    color:rgb(0,101,252);
+    border-radius: 25px;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    left: 25px;
+}
+
+.filter-content-text
+{
+    border-top: 2px solid rgb(200,200,200);
+    border-right: 2px solid rgb(200,200,200);
+    border-bottom: 2px solid rgb(200,200,200);   
+    border-radius: 0px 25px 25px 0px;
+    line-height: 46px;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.filter-info
+{
+    display: flex;
+    align-items: center;
+}
+
+.fa-info
+{
+    color: rgb(0,101,252)  ;
+    border: 2px solid rgb(200,200,200);
+    line-height: 10px;
+    width: 34px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 15px;
+}
