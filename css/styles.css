@@ -1,0 +1,59 @@
+/* Miense en forme générale */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+
+/* Mise en forme header Desktop */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo
+{
+    height: 50px;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.menu li
+{
+    list-style-type: none;
+    padding: 0 10px;
+    margin-right: 20px;
+    line-height: 97px;
+    margin-top: 2px;
+
+}
+
+.menu li:hover
+{
+    border-top: 2px solid rgb(0,101,252);
+    margin-top: 0px;
+}
+
+ 
