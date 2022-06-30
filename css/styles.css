@@ -171,29 +171,48 @@ header
 
 .result-city
 {
-    width: 60%;
+    width: 65%;
     background-color: rgb(242,242,242);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result-city-text
+{
+    margin-left: 40px;
 }
 
 .result-city-card
 {
-    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    height: 470px;
+    padding: 0 20px 20px 20px;
+}
+
+.result-city-card-content
+{
+    width: 28%;
     background-color: white;
     border: 3px solid white;
     border-radius: 20px 20px;
 }
 
-.result-city-card a
+.result-city-card-content a, .result-most-popular-card-content a
 {
     text-decoration: none;
 }
 
-.result-city-card-img
+.result-city-card-content-img
 {
     height: 100px;
 }
 
-.result-city-card-img img
+.result-city-card-content-img img
 {
     object-fit: cover;
     width: 100%;
@@ -201,28 +220,97 @@ header
     border-radius: 20px 20px 0 0;
 }
 
-.result-city-card-body-title h3
+.result-city-card-content-body
+{
+    margin-left: 10px;
+}
+
+.result-city-card-content-body-title h3, .result-most-popular-card-content-body-title h3
 {
     color: black;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 15px;    
 }
 
-.result-city-card-body-price p
+.result-city-card-content-body-price p, .result-most-popular-card-content-body-price p
 {
     color: black;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 15px;
 }
 
-.result-city-card-body-price span
+.result-city-card-content-body-price span, .result-most-popular-card-content-body-price span
 {
     font-weight: 700;
 }
 
+.result-city-card-content-body-rating
+{
+    margin-bottom: 8px;
+}
+
+/* Mise en forme de la partie résultats les plus populaires */
 .result-most-popular
 {
-    width: 30%
+    width: 30%;
+    background-color: rgb(242,242,242);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result-most-popular-card
+{
+    width: 80%;
+}
+
+.result-most-popular-card a
+{
+    text-decoration: none;
+}
+
+.result-most-popular-title
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-most-popular-card-content
+{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px 20px;
+    height: 125px;
+    display: flex;
+}
+
+
+.result-most-popular-card-content-img
+{
+    width: 100px;
+}
+
+.result-most-popular-card-content-img img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.result-most-popular-card-content-body
+{
+    margin-left: 10px;
+    padding-right: 30px;
+}
+
+.result-most-popular-card-content-body-rating
+{
+    margin-top: 12px;
 }
 
 
