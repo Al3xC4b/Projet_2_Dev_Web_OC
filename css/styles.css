@@ -10,7 +10,7 @@ body
 .container
 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1242px;
 
 }
 
@@ -67,7 +67,7 @@ header
 
 .fa-location-dot
 {
-    background-color: rgb(200,200,200);
+    background-color: rgb(242,242,242);
     font-size: 20px;
     padding: 15px;
     border-radius: 10px 0 0 10px;
@@ -78,10 +78,10 @@ header
     line-height: 40px;
     padding: 3px 10px 3px 10px;
     margin: 0;
-    border-top: 2px solid rgb(200,200,200);
+    border-top: 2px solid rgb(242,242,242);
     border-right: 0px;
     border-left: 0px;
-    border-bottom: 2px solid rgb(200,200,200);
+    border-bottom: 2px solid rgb(242,242,242);
    
 }
 
@@ -97,7 +97,7 @@ header
 
 .search-form-submit:hover
 {
-    color: rgb(200,200,200);
+    color: rgb(242,242,242);
 }
 
 .search-form-submit-headphone
@@ -135,9 +135,9 @@ header
 
 .filter-content-text
 {
-    border-top: 2px solid rgb(200,200,200);
-    border-right: 2px solid rgb(200,200,200);
-    border-bottom: 2px solid rgb(200,200,200);   
+    border-top: 2px solid rgb(242,242,242);
+    border-right: 2px solid rgb(242,242,242);
+    border-bottom: 2px solid rgb(242,242,242);   
     border-radius: 0px 25px 25px 0px;
     line-height: 46px;
     padding-left: 35px;
@@ -153,11 +153,27 @@ header
 .fa-info
 {
     color: rgb(0,101,252)  ;
-    border: 2px solid rgb(200,200,200);
+    border: 2px solid rgb(242,242,242);
     line-height: 10px;
     width: 34px;
     padding: 10px;
     border-radius: 15px;
     text-align: center;
     margin-right: 15px;
+}
+
+
+/* Règles CSS pour tablette */
+
+@media all and (min-device-width:769px and (max-device-width: 992px)
+{
+    
+}
+
+
+/* Règles CSS pour portable */
+
+@media all and (max-device-width: 768px)
+{
+    
 }
