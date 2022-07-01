@@ -363,6 +363,80 @@ h1
     color: black;
 }
 
+/* Mise en forme de la section Activité */
+.activity-card
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.activity-card-content
+{
+    width: 20%;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px 20px;
+    margin-left: 10px;
+}
+
+.height100
+{
+    height: 80%;
+}
+
+.height70
+{
+    height: 40%;
+}
+
+.height30
+{
+    height: 30%;
+    margin-top: 20px;
+}
+
+.activity-card-content:hover
+{
+    border-color: rgb(0,101,252);
+}
+
+.activity-card-content a
+{
+    text-decoration: none;
+}
+
+.activity-card-content-img
+{
+    height: 80%;
+}
+
+.activity-card-content-img img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.activity-card-content-body
+{
+    margin-left: 10px;
+}
+
+.activity-card-content-body-title h3
+{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;    
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+
+
 /* Règles CSS pour tablette */
 
 @media all and (min-device-width:769px) and (max-device-width: 992px)
