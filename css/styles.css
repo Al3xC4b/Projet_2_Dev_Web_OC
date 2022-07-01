@@ -58,6 +58,19 @@ header
 
 /* Mise en forme de la section search */
 
+h1
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.search-subtitle
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .search-form
 {
     display: flex;
@@ -163,6 +176,7 @@ header
 }
 
 /* Mise en forme de la partie résultats par ville */
+
 .result
 {
     display: flex;
@@ -174,14 +188,20 @@ header
     width: 65%;
     background-color: rgb(242,242,242);
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+}
+
+.result-city-title
+{
+    margin-left: 45px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .result-city-text
 {
-    margin-left: 40px;
+    margin-left: 45px;
+    font-weight: 700;
+    font-size: 17px;
 }
 
 .result-city-card
@@ -190,7 +210,7 @@ header
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
-    height: 470px;
+    height: 435px;
     padding: 0 20px 20px 20px;
 }
 
@@ -200,6 +220,11 @@ header
     background-color: white;
     border: 3px solid white;
     border-radius: 20px 20px;
+}
+
+.result-city-card-content:hover
+{
+    border-color: rgb(0,101,252);
 }
 
 .result-city-card-content a, .result-most-popular-card-content a
@@ -230,6 +255,8 @@ header
     color: black;
     font-weight: 700;
     font-size: 15px;    
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .result-city-card-content-body-price p, .result-most-popular-card-content-body-price p
@@ -237,6 +264,7 @@ header
     color: black;
     font-weight: 300;
     font-size: 15px;
+    margin-top: 5px;
 }
 
 .result-city-card-content-body-price span, .result-most-popular-card-content-body-price span
@@ -250,6 +278,7 @@ header
 }
 
 /* Mise en forme de la partie résultats les plus populaires */
+
 .result-most-popular
 {
     width: 30%;
@@ -258,12 +287,18 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+}
+
+.result-most-popular-title h2
+{
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .result-most-popular-card
 {
     width: 80%;
+    margin-bottom: 40px;
 }
 
 .result-most-popular-card a
@@ -288,6 +323,11 @@ header
     display: flex;
 }
 
+.result-most-popular-card-content:hover
+{
+    border-color: rgb(0,101,252);
+}
+
 
 .result-most-popular-card-content-img
 {
@@ -310,9 +350,18 @@ header
 
 .result-most-popular-card-content-body-rating
 {
-    margin-top: 12px;
+    margin-top: 30px;
 }
 
+.fa-star
+{
+    color: rgb(0,101,252);
+}
+
+.result-most-popular-title .fa-star
+{
+    color: black;
+}
 
 /* Règles CSS pour tablette */
 
