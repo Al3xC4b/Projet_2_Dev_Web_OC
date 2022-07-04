@@ -11,7 +11,12 @@ body
 {
     width: 100%;
     max-width: 1242px;
+}
 
+header, .search, .filter, .result, .activity
+{
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
 }
 
 *
@@ -35,7 +40,7 @@ header
     height: 50px;
 }
 
-.menu
+.menu ul
 {
     display: flex;
 }
@@ -124,7 +129,6 @@ h1
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
 }
 
 .filter-content
@@ -301,10 +305,11 @@ h1
     align-items: center;
 }
 
-.result-most-popular h2
+.result-most-popular-title h2, .result-most-popular-title i
 {
     font-size: 20px;
     margin-top: 35px;
+    line-height: 20px;
 }
 
 .result-most-popular-card
@@ -323,7 +328,6 @@ h1
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .result-most-popular-card-content
@@ -376,12 +380,18 @@ h1
 }
 
 /* Mise en forme de la section Activité */
+.activity
+{
+    margin-top: 50px;
+}
+
 .activity-card
 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
+    justify-content: space-between;
     height: 300px;
     
 }
@@ -392,7 +402,7 @@ h1
     background-color: white;
     border: 3px solid white;
     border-radius: 20px 20px;
-    box-shadow: 0 0 3px rgb(12, 12, 12);
+    box-shadow: 0 0 3px rgb(220,220,220);
 
 }
 
@@ -403,17 +413,27 @@ h1
 
 .height100 .activity-card-content-img
 {
-    height: 250px;
+    height: 260px;
 }
 
 .height60
 {
-    height: 150px;
+    height: 165px;
+}
+
+.height60 .activity-card-content-img
+{
+    height: 120px;
 }
 
 .height40
 {
-    height: 100px;
+    height: 115px;
+}
+
+.height40 .activity-card-content-img
+{
+    height: 75px;
 }
 
 .activity-card-content:hover
@@ -445,9 +465,46 @@ h1
     font-weight: 700;
     font-size: 15px;    
     margin-bottom: 0;
-    line-height: 50px;
-    height: 50p;
+    line-height: 40px;
+    height: 40px;
     margin-top: 0;
+}
+
+/* Mise en forme du footer */
+
+footer
+{
+    display:flex;
+    background-color: rgb(242,242,242);
+    margin-top: 50px;
+}
+
+.about, .quality, .support
+{
+    margin-right: 175px;
+    margin-left: 50px;
+}
+
+footer ul
+{
+    padding-left: 0;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+footer li
+{
+    list-style: none;
+}
+
+footer h3
+{
+    font-size: 15px;
 }
 
 

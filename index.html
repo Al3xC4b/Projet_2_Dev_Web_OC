@@ -1,8 +1,3 @@
-<!-- Questions à poser :
-
-        - Pourquoi si on définit une largeur lex ne marche pas
-        - Utilisation relative absolute?-->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,8 +23,10 @@
             <header>
                 <img class="logo" src="assets/logo/Booki.png" alt="logo Booki">
                 <nav class="menu">
-                    <li>Hébergements</li>
-                    <li>Activités</li>
+                    <ul>
+                        <li>Hébergements</li>
+                        <li>Activités</li>
+                    </ul>
                 </nav>
             </header>
             
@@ -207,7 +204,7 @@
 
                     <!-- Résultats les plus populaires -->
                     <div class="result-most-popular">
-                        <div>
+                        <div class="result-most-popular-title">
                             <h2>Les plus populaires</h2>
                             <i class="fa-solid fa-star"></i>
                         </div>
@@ -361,7 +358,28 @@
 
             <!-- Partie footer -->
             <footer>
-
+                <div class="about">
+                    <h3>A propos</h3>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Condition générale de vente</a></li>
+                        <li><a href="#">Données et confidatialité</a></li>
+                    </ul>
+                </div>
+                <div class="quality">
+                    <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Soummetre votre hotel</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
             </footer>
         </div>
     </body>
