@@ -13,7 +13,7 @@ body
     max-width: 1242px;
 }
 
-header, .search, .filter, .result, .activity
+header, .search, .result, .activity
 {
     width: 95%;
     margin: 0 2.5% 0 2.5%;
@@ -118,10 +118,43 @@ h1
     color: rgb(242,242,242);
 }
 
+
+
 .search-form-submit-headphone
 {
-    display: none;
+    display:none;
 }
+
+.search-form-submit-headphone, .search-form-submit-headphone input
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+.search-form-submit-headphone p
+{
+    margin: 0;
+}
+
+.search-form-submit-headphone input
+{
+    background-color: rgb(0,101,252);
+    border: none;
+}
+
+.search-form-submit-headphone i
+{
+    position: relative;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    bottom: 52px;
+    color: white;
+    font-size: 20px;
+}
+
 
 /* Mise en forme des filtres */
 .filter
@@ -129,6 +162,7 @@ h1
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
 }
 
 .filter-content
@@ -293,6 +327,16 @@ h1
     margin-bottom: 8px;
 }
 
+.rating3 :nth-child(4), .rating3 :nth-child(5)
+{
+    color: rgb(230,230,230)
+}
+
+.rating4 :nth-child(5)
+{
+    color: rgb(230,230,230)
+}
+
 /* Mise en forme de la partie résultats les plus populaires */
 
 .result-most-popular
@@ -344,16 +388,10 @@ h1
     border-color: rgb(0,101,252);
 }
 
-
-.result-most-popular-card-content-img
-{
-    width: 100px;
-}
-
 .result-most-popular-card-content-img img
 {
     object-fit: cover;
-    width: 100%;
+    width: 100px;
     height: 100%;
     border-radius: 17px 0 0 17px;
 }
@@ -392,7 +430,7 @@ h1
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
-    height: 300px;
+    height: 350px;
     
 }
 
@@ -408,32 +446,32 @@ h1
 
 .height100
 {
-    height: 300px;
+    height: 350px;
 }
 
 .height100 .activity-card-content-img
 {
-    height: 260px;
+    height: 310px;
 }
 
 .height60
 {
-    height: 165px;
+    height: 190px;
 }
 
 .height60 .activity-card-content-img
 {
-    height: 120px;
+    height: 145px;
 }
 
 .height40
 {
-    height: 115px;
+    height: 140px;
 }
 
 .height40 .activity-card-content-img
 {
-    height: 75px;
+    height: 100px;
 }
 
 .activity-card-content:hover
@@ -521,5 +559,116 @@ footer h3
 
 @media all and (max-device-width: 768px)
 {
-    
+
+    header
+    {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+
+    nav ul
+    {
+        justify-content: space-around;
+        padding-left: 0;
+    }
+
+
+    .search-form-submit-headphone
+    {
+        display:block;
+    }
+
+    .search-form-submit
+    {
+        display:none;
+    }
+
+    .filter
+    {
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 100%;
+    }
+
+    .result
+    {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .result-most-popular
+    {
+        order: -1;
+        width: 100%;
+    }
+
+    .result-most-popular-card, .result-most-popular-title
+    {
+        width: 90%;
+    }
+
+    .result-city
+    {
+        width: 100%;
+        background-color: white;
+    }
+    .result-city-card
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: fit-content;
+        align-items: center;
+        padding: 0;
+    }
+
+    .result-city-card-content
+    {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .activity
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .activity-card
+    {
+        flex-wrap: nowrap;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .activity-card-content
+    {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .height100, .height40, .height60
+    {
+        height: 250px;
+    }
+
+    .height100 .activity-card-content-img, .height40 .activity-card-content-img, .height60 .activity-card-content-img
+    {
+        height: 210px;
+    }
+
+    footer
+    {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+
+
+
+
 }
