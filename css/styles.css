@@ -100,6 +100,7 @@ h1
     border-right: 0px;
     border-left: 0px;
     border-bottom: 2px solid rgb(242,242,242);
+    font-weight: 700;
    
 }
 
@@ -141,6 +142,7 @@ h1
 {
     position: relative;
     right: 15px;
+    margin-right: -15px;
 }
 
 .search-form-submit-headphone input
@@ -613,14 +615,9 @@ footer h3
         display:none;
     }
 
-    form
-    {
-        justify-content: center;
-    }
-
     .search-form-text
     {
-        width: 250px;
+        width: 275px;
     }
 
     .filter
@@ -628,12 +625,18 @@ footer h3
         flex-wrap: wrap;
         justify-content: left;
         width: 100%;
+        padding-left: 2.5%;
+
     }
 
     .filter > p
     {
         width: 90%;
-        margin-left: 2.5%;
+    }
+
+    .filter-content-text
+    {
+        margin-right: 10px;
     }
 
     .result
