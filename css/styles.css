@@ -10,7 +10,6 @@ body
 .container
 {
     width: 100%;
-    max-width: 1242px;
 }
 
 header, .search, .result, .activity
@@ -117,6 +116,7 @@ h1
     border: none;
     border-radius: 0 10px 10px 0;
     color: white;
+    font-weight: 700;
 }
 
 .search-form-submit:hover
@@ -183,6 +183,8 @@ h1
 {
     display: flex;
     align-items: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 .filter-content p:hover
@@ -201,7 +203,7 @@ h1
     width: 50px;
     text-align: center;
     z-index: 1;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .filter-content-text
@@ -213,12 +215,17 @@ h1
     line-height: 46px;
     padding-left: 35px;
     padding-right: 10px;
-    margin: 10px 25px 0 -25px;
+    margin: 0 25px 10px -25px;
 }
 
 .filter p
 {
     font-weight: 700;
+    line-height: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
 }
 
 .filter-info
@@ -234,7 +241,7 @@ h1
     line-height: 10px;
     width: 34px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 17px;
     text-align: center;
     margin-right: 15px;
 }
@@ -280,7 +287,7 @@ h1
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
-    height: 435px;
+    height: 450px;
     padding: 0 20px 20px 20px;
 }
 
@@ -400,7 +407,7 @@ h1
     background-color: white;
     border: 3px solid white;
     border-radius: 20px 20px;
-    height: 125px;
+    height: 140px;
     display: flex;
 }
 
@@ -420,7 +427,7 @@ h1
 .result-most-popular-card-content-body
 {
     margin-left: 10px;
-    padding-right: 30px;
+    padding-right: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -458,7 +465,6 @@ h1
 {
     width: 22%;
     background-color: white;
-    border: 3px solid white;
     border-radius: 20px 20px;
     box-shadow: 0 0 3px rgb(220,220,220);
 
@@ -496,7 +502,7 @@ h1
 
 .activity-card-content:hover
 {
-    border-color: rgb(0,101,252);
+    background-color: rgb(242,242,242);
 }
 
 .activity-card-content a
@@ -569,7 +575,7 @@ footer h3
 
 /* Règles CSS pour tablette */
 
-@media all and (min-device-width:769px) and (max-device-width: 992px)
+@media all and (min-width:769px) and (max-width: 992px)
 {
     
     header
@@ -744,7 +750,7 @@ footer h3
 
 /* Règles CSS pour portable */
 
-@media all and (max-device-width: 768px) 
+@media all and (max-width: 768px) 
 {
 
     header
