@@ -122,8 +122,8 @@ h1
 .search-form-submit:hover
 {
     color: rgb(242,242,242);
+    cursor: pointer;
 }
-
 
 
 .search-form-submit-headphone
@@ -187,11 +187,18 @@ h1
     height: fit-content;
 }
 
-.filter-content p:hover
+.filter-content:hover .filter-content-text
 {
+    cursor: pointer;
     background-color: rgb(220,220,220);
     color: rgb(0,101,252);
 }
+
+.filter-content i:hover
+{
+    cursor: pointer;
+}
+
 
 .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog
 {
