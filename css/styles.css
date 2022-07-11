@@ -387,7 +387,7 @@ h1
 .result-most-popular-card
 {
     width: 80%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .result-most-popular-card a
@@ -407,7 +407,7 @@ h1
     background-color: white;
     border: 3px solid white;
     border-radius: 20px 20px;
-    height: 140px;
+    height: 155px;
     display: flex;
 }
 
@@ -669,6 +669,11 @@ footer h3
         width: 45%;
     }
 
+    .result-most-popular-card-content
+    {
+        height: 120px;
+    }
+
     .result-most-popular-title
     {
         width: 90%;
@@ -788,6 +793,10 @@ footer h3
         border-top: 0;
     }
 
+    .search form
+    {
+        justify-content: center;
+    }
 
     .search-form-submit-headphone
     {
@@ -801,7 +810,7 @@ footer h3
 
     .search-form-text
     {
-        width: 275px;
+        width: 220px;
     }
 
     .filter
@@ -834,6 +843,11 @@ footer h3
         order: -1;
         width: 100%;
         border-radius: 0;
+    }
+
+    .result-most-popular-card-content
+    {
+        height: 120px;
     }
 
     .result-most-popular-card, .result-most-popular-title
