@@ -59,15 +59,13 @@ header
     color: black;
 }
 
-/*---------------------------------------------- A présenter-------------------------------*/
 .menu li:hover
 {
     border-top: 2px solid rgb(0,101,252);
     margin-top: 0px;
 }
-/*---------------------------------------------- A présenter fin-------------------------------*/
 
-/*--------------------------------- Mise en forme de la section search---------------------------------------------- */
+/*Mise en forme de la section search*/
 
 h1
 {
@@ -175,8 +173,6 @@ h1
     border-radius: 15px;
 }
 
-/*--------------------------------- Mise en forme de la section search fin---------------------------------------------- */
-
 /* Mise en forme des filtres */
 .filter
 {
@@ -195,7 +191,7 @@ h1
     height: fit-content;
 }
 
-/*---------------------------------------------- A présenter--------------------------------------------------------*/
+
 .filter-content:hover .filter-content-text
 {
     cursor: pointer;
@@ -203,7 +199,6 @@ h1
     color: rgb(0,101,252);
 }
 
-/*---------------------------------------------- A présenter fin------------------------------------------------------*/
 
 .filter-content i:hover
 {
@@ -462,7 +457,7 @@ h1
     color: black;
 }
 
-/*----------------------------------------Mise en forme de la section Activité--------------------------------------*/
+/* Mise en forme de la section Activité */
 .activity
 {
     margin-top: 50px;
@@ -551,8 +546,6 @@ h1
     height: 40px;
     margin-top: 0;
 }
-
-/*----------------------------------------Mise en forme de la section Activité fin--------------------------------------*/
 
 /* Mise en forme du footer */
 
